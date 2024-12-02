@@ -1,5 +1,5 @@
 # RPG-Dragon Fighter
-(Made this project to make myself familiar with Web Dev)
+(Made this project to make myself familiar with Web Dev)\n
 (Inspired by freeCodeCamp.org bootcamp)
 
 ## Description
