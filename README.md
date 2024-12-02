@@ -57,7 +57,3 @@ Feel free to contribute to the project by submitting a pull request with new fea
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-You can update the repository URL in the **Installation** section with your actual GitHub repository link. Let me know if you'd like to modify any part of this!
