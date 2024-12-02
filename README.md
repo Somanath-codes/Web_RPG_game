@@ -1,4 +1,6 @@
-# RPG-Dragon Repeller
+# RPG-Dragon Fighter
+(Made this project to make myself familiar with Web Dev)
+(Inspired by freeCodeCamp.org bootcamp)
 
 ## Description
 
