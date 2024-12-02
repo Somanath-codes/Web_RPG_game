@@ -186,7 +186,7 @@ function buyWeapon()
             let newWeapon = weapons[currentWeapon].name;
             inventory.push(newWeapon);
             text.innerText = "You now have a "+ newWeapon +".";
-            text.innerText += " You have a "+newWeapon+ " in your inventory. Go Beserk."
+            text.innerText += " You now have upgraded your existing weapon to "+newWeapon+ " . Go Beserk."
         }
         else
         {
