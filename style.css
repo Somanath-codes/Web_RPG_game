@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color:darkblue;
 }
 
@@ -40,4 +40,152 @@ body{
 .stat
 {
     padding-right:10px;
+} */
+
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #a2c2e4, #f7f7f7);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Container for the game */
+#game {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+}
+
+/* Game Stats Styling */
+#stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.stat {
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+}
+
+.stat strong {
+    color: #1e88e5;
+}
+
+#stats .stat {
+    background: #f4f4f4;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Control Buttons Styling */
+#controls {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #1e88e5;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1565c0;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+/* Monster Stats Styling */
+#monsterStats {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #444;
+    display: none; /* Hidden by default */
+}
+
+/* Text Styling */
+#text {
+    font-size: 20px;
+    font-weight: 300;
+    color: #333;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Applying Pop-In Animation to Button on Page Load */
+#controls button {
+    animation: popIn 0.8s ease-out forwards;
+}
+
+/* Applying Pop-In Animation to Monster Stats */
+#monsterStats {
+    animation: popIn 1s ease-out forwards;
+    display: block;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    #game {
+        width: 100%;
+        padding: 15px;
+    }
+
+    button {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+
+    #stats {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #text {
+        font-size: 18px;
+    }
 }
