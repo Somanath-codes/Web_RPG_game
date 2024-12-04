@@ -35,7 +35,7 @@ RPG-Dragon Repeller is a simple text-based RPG game where the player must naviga
 ```bash
 git clone https://github.com/Somanath-codes/Web_RPG_game.git
 ```
-It has been hosted on vercel, if you want to play immediately : https://web-rpg-game-6r1cxzkvw-somanaths-projects.vercel.app/
+It has been hosted on vercel, if you want to play immediately without any hassle : https://vercel.com/somanaths-projects/web-rpg-game/9sDV7UdUJhTEJGwPcwFdzaAzT2tf
 
 ## How the Game Works
 
