@@ -1,5 +1,6 @@
 # RPG-Dragon Fighter
 (Made this project to make myself familiar with Web Dev, Inspired by freeCodeCamp.org bootcamp)
+(This is just a basic implementation of javascript, html and css concepts independent of any libraries , frameworks)
 
 ## Description
 
